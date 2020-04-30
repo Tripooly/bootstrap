@@ -1,0 +1,94 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@babel/core > lodash':
+        patched: '2020-04-30T21:12:25.121Z'
+    - eslint > lodash:
+        patched: '2020-04-30T21:12:25.121Z'
+    - karma > lodash:
+        patched: '2020-04-30T21:12:25.121Z'
+    - stylelint > lodash:
+        patched: '2020-04-30T21:12:25.121Z'
+    - stylelint-order > lodash:
+        patched: '2020-04-30T21:12:25.121Z'
+    - stylelint-scss > lodash:
+        patched: '2020-04-30T21:12:25.121Z'
+    - '@babel/preset-env > @babel/plugin-transform-block-scoping > lodash':
+        patched: '2020-04-30T21:12:25.121Z'
+    - babel-eslint > @babel/traverse > lodash:
+        patched: '2020-04-30T21:12:25.121Z'
+    - eslint > inquirer > lodash:
+        patched: '2020-04-30T21:12:25.121Z'
+    - eslint > table > lodash:
+        patched: '2020-04-30T21:12:25.121Z'
+    - stylelint > table > lodash:
+        patched: '2020-04-30T21:12:25.121Z'
+    - htmllint-cli > htmllint > lodash:
+        patched: '2020-04-30T21:12:25.121Z'
+    - karma > combine-lists > lodash:
+        patched: '2020-04-30T21:12:25.121Z'
+    - node-sass > sass-graph > lodash:
+        patched: '2020-04-30T21:12:25.121Z'
+    - postcss-cli > postcss-reporter > lodash:
+        patched: '2020-04-30T21:12:25.121Z'
+    - stylelint > postcss-reporter > lodash:
+        patched: '2020-04-30T21:12:25.121Z'
+    - stylelint-order > postcss-sorting > lodash:
+        patched: '2020-04-30T21:12:25.121Z'
+    - '@babel/preset-env > @babel/plugin-transform-modules-umd > @babel/helper-module-transforms > lodash':
+        patched: '2020-04-30T21:12:25.121Z'
+    - babel-eslint > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-04-30T21:12:25.121Z'
+    - rollup-plugin-babel > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2020-04-30T21:12:25.121Z'
+    - stylelint > postcss-jsx > @babel/core > lodash:
+        patched: '2020-04-30T21:12:25.121Z'
+    - babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2020-04-30T21:12:25.121Z'
+    - bundlesize > opencollective > inquirer > lodash:
+        patched: '2020-04-30T21:12:25.121Z'
+    - karma-coverage-istanbul-reporter > istanbul-api > async > lodash:
+        patched: '2020-04-30T21:12:25.121Z'
+    - node-sass > gaze > globule > lodash:
+        patched: '2020-04-30T21:12:25.121Z'
+    - '@babel/preset-env > @babel/plugin-transform-parameters > @babel/helper-call-delegate > @babel/traverse > lodash':
+        patched: '2020-04-30T21:12:25.121Z'
+    - babel-eslint > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-04-30T21:12:25.121Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/traverse > lodash:
+        patched: '2020-04-30T21:12:25.121Z'
+    - babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-04-30T21:12:25.121Z'
+    - karma-coverage-istanbul-reporter > istanbul-api > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2020-04-30T21:12:25.121Z'
+    - '@babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > lodash':
+        patched: '2020-04-30T21:12:25.121Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2020-04-30T21:12:25.121Z'
+    - babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-04-30T21:12:25.121Z'
+    - babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/template > lodash:
+        patched: '2020-04-30T21:12:25.121Z'
+    - karma-coverage-istanbul-reporter > istanbul-api > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-04-30T21:12:25.121Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-04-30T21:12:25.121Z'
+    - '@babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash':
+        patched: '2020-04-30T21:12:25.121Z'
+    - karma-coverage-istanbul-reporter > istanbul-api > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/template > lodash:
+        patched: '2020-04-30T21:12:25.121Z'
+    - babel-plugin-istanbul > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-04-30T21:12:25.121Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-04-30T21:12:25.121Z'
+    - '@babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2020-04-30T21:12:25.121Z'
+    - karma-coverage-istanbul-reporter > istanbul-api > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-04-30T21:12:25.121Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-04-30T21:12:25.121Z'
+    - '@babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash':
+        patched: '2020-04-30T21:12:25.121Z'
